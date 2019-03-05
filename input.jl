@@ -27,7 +27,7 @@ S            	    = a*ndim*Array{Float64}(I, 3, 3)
 Sinv                = inv(S) 
 A                   = η*[1.0 0 0; 0 -1/2 0; 0 0 -1/2]
 
-#integrator         = "EM"
+#integrator = "EM"
 #integ = Symbol(integrator)
 
 const tfac = 2/3/nPart
