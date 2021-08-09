@@ -8,9 +8,6 @@ using Polynomials
 
 # ==============================================================================
 #                             Main function
-#
-# TO DO:
-# - try out different boundary condition implementations (regular and corrected)
 # ==============================================================================
 function main()
     λ =  Params(t = 1.0/16,
