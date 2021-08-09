@@ -60,6 +60,7 @@ function computeForce(X::Particle,
     end
 end
 
+# ==============================================================================
 function updateForce!(X::Particle,
                        Y::GenKR,
                        Z::Clist,
